@@ -1,0 +1,197 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+i{
+    color: #257274;
+    
+}
+
+.nav-item img{
+
+    margin:0px;
+}
+.navbar-nav li{
+padding: 10px;
+font-size: 15px;
+color:  #002347;;
+
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-collapse ul{
+float: right;
+
+}
+.navbar-form {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+   
+    border-radius: 100px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-control{
+
+    border: none;
+}
+.btn-default{
+
+    border: none;
+}
+.navbar-collapse ul li a:hover{
+color: tomato;
+
+}
+.navbar:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    opacity: .3;
+    background: linear-gradient(to right, #00050a 0%, #0c0e0d 0%, #010708 100%);
+}
+
+    .nav-section{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/home-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+        position: relative;
+   
+}
+.heading{
+    width: 100%;
+    height: inherit;
+    color: #fff !important;
+    text-align: center;
+    position: relative;
+}
+.main-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 28%;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.main-div p {
+    font-size: 1.6rem;
+    
+    color:#002347;
+    text-align: center;
+}
+.main-div h1 {
+    font-size: 2.5em;
+    
+    color: #002347;
+    text-align: center;
+}
+.heading-button a {
+    border: 1px solid #fff;
+  border-radius: 10px;
+   margin-top: 10px;
+    background-color:#fdc632; 
+    padding: 12px 35px;
+    color: rgb(7, 1, 1);
+    font-weight: 400;
+    outline: none;
+    font-size: 1.3rem;
+    line-height: 2.9;
+    text-align: center;
+
+}
+.heading-button a:hover {
+    color:white;
+    background: #002347;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+    /*-----services css-----*/
+
+    .header-extradiv {
+        width: 100%;
+        height: auto;
+        margin: 100px 0;
+    }
+    
+    .extradiv {
+        padding: 50px;
+        background: #fff;
+        padding: 50px;
+        transition: 0.3s;
+        text-align: center;
+        border-radius: 3px;
+    }
+    
+    .extradiv:hover {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        transform: translatey(-20px);
+    }
+    .bi-layers-fill:hover{
+color: tomato;
+
+    }
+    .bi-book-half:hover{
+
+        color: tomato;
+
+    }
+    .bi-globe:hover{
+
+        color: tomato;
+    }
+/*----services css end-----*/
